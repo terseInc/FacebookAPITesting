@@ -38,7 +38,7 @@ public class Sanity {
 
 	  
     @Test
-    public void TestThat(){
+    public void TestThatTheNameAndIdOfAUserCanBeRetrieved(){
    	 Client client = Client.create();
      WebResource service = client.resource(Facebook.getBaseUrl())
     		 .path("me")
